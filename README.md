@@ -97,7 +97,6 @@ Servlets support four scopes:
 | **Request** | `HttpServletRequest` | One HTTP request |
 | **Session** | `HttpSession` | User session |
 | **Application** | `ServletContext` | Entire application |
-| **Page** (JSP only) | `PageContext` | Current JSP |
 
 ---
 
@@ -139,18 +138,3 @@ Filters intercept requests before they reach the servlet.
 - `doFilter()`
 - `destroy()`
 
-Configured using:
-- `web.xml`
-- or `@WebFilter` annotation
-
----
-
-## ✔ Summary
-This README provides a complete overview of:
-- Servers  
-- Servlet API  
-- Servlet lifecycle  
-- Config/Context  
-- Scopes  
-- Filters  
-- Session Management  
